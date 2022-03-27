@@ -32,13 +32,13 @@ Header 6
   .navbar-nav {
     .nav-link {
       padding: 35px 15px;
-      color: rgba(255, 255, 255, 0.5);
+      color: rgba(0, 0, 0, 0.5);
       transition-duration: 0.2s;
     }
 
     .nav-item:hover .nav-link,
     .nav-item.active .nav-link {
-      color: rgba(255, 255, 255, 1);
+      color: rgb(61, 61, 61);
     }
   }
 
@@ -69,8 +69,8 @@ Header 6
   min-height: 600px;
   display: flex;
 
-  background-color: #f0a8ce;
-  background-image: url('../../public/background.png');
+  background-color: $themecolor;
+  // background-image: url('../../public/background.png');
 
   .title {
     color: $white;
