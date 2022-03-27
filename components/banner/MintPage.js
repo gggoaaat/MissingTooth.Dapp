@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import bannerimg from "../../assets/images/landingpage/banner-img.png";
+import mintimg from "../../assets/images/landingpage/mint.jpg";
+import walletimg from "../../assets/images/landingpage/connectwallet.jpg";
 import NFTWalletBridge from '../nftWalletBridge'
 import WalletConnectProvider from "@walletconnect/web3-provider";
 
@@ -106,12 +108,8 @@ const MintPage = () => {
                   {process.env.landingPageSummary}
                   <br />
                 </h4>
-                <a
-                  onClick={() => walletBridge1.showWeb3Modal()}
-                  className="btn btn-success m-r-20 btn-md m-t-30 "
-                >
-                  Connect Wallet
-                </a>
+                
+                <Image src={walletimg} alt="ConnectWallet" onClick={() => walletBridge1.showWeb3Modal()} />
                 <Link href={process.env.siteTitle}>
                   <a className="btn btn-md m-t-30  btn-outline-light ">
                     Back Home
@@ -130,7 +128,7 @@ const MintPage = () => {
                   Contract : <strong>{process.env.contractAddress}</strong>
                   <br />
                 </p>
-                {(currentUseState.xmPower.isWhiteListed == true) ?
+                {(currentUseState.xmPower.isWhiteListed == true || process.env.enforceWhitelist == false) ?
                   <><label className="connected">Number to mint (1-{process.env.maxMintCount}):</label>
 
                     <div className="">
@@ -148,14 +146,12 @@ const MintPage = () => {
                         </div>
                       </div>
                     </div>
-                    <Link href="">
-                      <a className="btn btn-success m-r-20 btn-md m-t-30 btn-outline-dark " onClick={() => SendMint({ mint: mintNum })}>
-                        Mint
-                      </a>
+                    <Link href="">                  
+                      <Image src={mintimg} alt="Mint" width={209} height={100} onClick={() => SendMint({ mint: mintNum })} />
                     </Link>
                   </>
                   : <h1>You are not on the whitelist</h1>}
-
+<br />
                 <a
                   onClick={() => walletBridge1.disconnect()}
                   className="btn btn-md m-t-30 btn-outline-light "
