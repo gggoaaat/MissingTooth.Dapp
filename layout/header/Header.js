@@ -50,7 +50,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="https://twitter.com/MONSTERCOMMUNE">
+                  <Link href="https://twitter.com/missingtooth">
                     <a
                       className={
                         router.pathname == "/basic"
@@ -63,7 +63,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="https://discord.gg/nvzQRQBn">
+                  <Link href="https://discord.gg/missingtooth">
                     <a
                       className={
                         router.pathname == "/basic"
@@ -76,7 +76,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="https://testnets.opensea.io/collection/suitsonsuits-nft">
+                  <Link href="https://testnets.opensea.io/collection/missingtooth">
                     <a
                       className={
                         router.pathname == "/basic"
