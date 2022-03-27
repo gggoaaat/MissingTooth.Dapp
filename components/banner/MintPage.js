@@ -103,7 +103,7 @@ const MintPage = () => {
                   A blockchain project built by Community.
                 </h3>
                 <h4 className="subtitle font-light">
-                  An original collection consisting of 3,333 unique Monsters living on the Ethereum blockchain
+                  {process.env.landingPageSummary}
                   <br />
                 </h4>
                 <a
