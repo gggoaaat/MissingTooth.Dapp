@@ -76,7 +76,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="https://testnets.opensea.io/collection/missingtooth">
+                  <Link href="https://testnets.opensea.io/collection/toothytooths">
                     <a
                       className={
                         router.pathname == "/basic"
