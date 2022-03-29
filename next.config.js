@@ -12,7 +12,7 @@ module.exports = {
     infuraID: "045e9c65387a4200aa8559c347fa19a4",
     defaultGas: 125000,//75000,
     mintType : "Pre-Sale", //Pre-Sale or Public
-    enforceWhitelist : false,
+    enforceWhitelist : true,
     ethValue : "0.045",
     ethWLValue : "0.045",
     debug: false,
