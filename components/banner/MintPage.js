@@ -110,7 +110,7 @@ const MintPage = () => {
                 </h4>
                 
                 <Image src={walletimg} alt="ConnectWallet" onClick={() => walletBridge1.showWeb3Modal()} />
-                <Link href={process.env.siteTitle}>
+                <Link href={process.env.www}>
                   <a className="btn btn-md m-t-30  btn-outline-light ">
                     Back Home
                   </a>
