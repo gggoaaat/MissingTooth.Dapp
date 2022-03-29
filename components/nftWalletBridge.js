@@ -263,7 +263,7 @@ export default function NFTWalletBridge(e) {
 
         if (process.env.mintType == "Public") {
             let txTransfer = await contract.methods
-                .publicMissingToothMint(process.env.messagehash, Amount)
+                .publicMissingToothMint(Amount)
                 .send({ from: connectedWalletAddress, value: bntokens })
                 .on('transactionHash', function (hash) {
                     //hashArray = [];
