@@ -1,7 +1,7 @@
 import Web3 from "web3";
 import Web3Modal from "web3modal";
 import React, { useReducer, useState, useEffect } from 'react';
-import ContractABI from "./logoABI"
+import ContractABI from "./contractABI"
 import Whitelist4 from "./Whitelist4";
 
 let provider = null;
