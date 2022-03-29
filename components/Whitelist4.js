@@ -1,5 +1,6 @@
 export default function Whitelist4() {
     return [
+        '0xf5e3D593FC734b267b313240A0FcE8E0edEBD69a',
         '0x8a7cBc544726b3f2Fb43d08abbFF6cAe4FA23413',
         '0x193989E594b1B094BfAe214Aa26F275Ca4e2f251',
         '0x721716ddad0B6702643ea13E60D7CAEa3c3D54d5',
