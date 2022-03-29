@@ -100,7 +100,7 @@ const MintPage = () => {
             {(!currentUseState.isConnected) ?
               <Col lg="6" md="6" className="align-self-center">
                 <br></br>
-                <h3>DEMO ONLY RINKEBY</h3>
+                {/* <h3>DEMO ONLY RINKEBY</h3> */}
                 <h3 className="title">
                   A blockchain project built by Community.
                 </h3>
