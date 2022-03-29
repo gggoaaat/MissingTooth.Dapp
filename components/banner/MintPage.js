@@ -128,7 +128,7 @@ const MintPage = () => {
                   Contract : <strong>{process.env.contractAddress}</strong>
                   <br />
                 </p>
-                {(currentUseState.xmPower.isWhiteListed == true || process.env.enforceWhitelist == false) ?
+                {(currentUseState.xmPower.isWhiteListed == true && process.env.enforceWhitelist == true) ?
                   <><label className="connected">Number to mint (1-{process.env.maxMintCount}):</label>
 
                     <div className="">
