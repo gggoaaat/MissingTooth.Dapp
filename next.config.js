@@ -11,10 +11,10 @@ module.exports = {
     //contractAddress : "0x98631c69602083d04f83934576a53e2a133d482f",
     infuraID: "045e9c65387a4200aa8559c347fa19a4",
     defaultGas: 125000,//75000,
-    mintType : "Pre-Sale", //Pre-Sale Public
+    mintType : "Pre-Sale", //Pre-Sale or Public
     enforceWhitelist : false,
-    ethValue : "0.07",
-    ethWLValue : "0.055",
+    ethValue : "0.045",
+    ethWLValue : "0.045",
     debug: false,
     network: 'rinkeby',
     chainId: 4,

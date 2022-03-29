@@ -50,7 +50,7 @@ const Header = () => {
                   </Link>
                 </NavItem>
                 <NavItem>
-                  <Link href="https://twitter.com/missingtooth">
+                  <Link href="https://twitter.com/missingtoothnft">
                     <a
                       className={
                         router.pathname == "/basic"
