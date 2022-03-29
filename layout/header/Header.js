@@ -37,7 +37,7 @@ const Header = () => {
             >
               <Nav navbar className="ml-auto">
                 <NavItem>
-                  <Link href={process.env.siteTitle}>
+                  <Link href={process.env.www}>
                     <a
                       className={
                         router.pathname == "/"
@@ -62,7 +62,7 @@ const Header = () => {
                     </a>
                   </Link>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <Link href="https://discord.gg/missingtooth">
                     <a
                       className={
@@ -74,7 +74,7 @@ const Header = () => {
                       Discord
                     </a>
                   </Link>
-                </NavItem>
+                </NavItem> */}
                 <NavItem>
                   <Link href="https://testnets.opensea.io/collection/toothytooths">
                     <a
