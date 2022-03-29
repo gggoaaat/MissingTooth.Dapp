@@ -5,7 +5,7 @@ module.exports = {
   analyticsId: '7vsHWbYwcKpA3lFTng2Qe9iNzE7',
   env: {
     siteTitle: "Missing Tooth Minting Dapp",
-    contractAddress: "0xb3d84c57B739B5BfaF30E2163DC141f6170794E0",
+    contractAddress: "0x785A6D0cd1e182c5B95360D533e0e1C1a129a4B5",
     // contractAddress: "0x07397CA50D7526fBCe638b7428FD9eE98edCB67b",
     //contractAddress: "0x88A4Ccd8400a825a567017B8FB09133797c136aC",
     //contractAddress : "0x98631c69602083d04f83934576a53e2a133d482f",

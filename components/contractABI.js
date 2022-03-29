@@ -127,6 +127,19 @@ export default function ContractABI() {
         },
         {
             "inputs": [],
+            "name": "Author",
+            "outputs": [
+                {
+                    "internalType": "string",
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
             "name": "MAX_TOKENS",
             "outputs": [
                 {
@@ -361,36 +374,6 @@ export default function ContractABI() {
         },
         {
             "inputs": [
-                {
-                    "internalType": "bool",
-                    "name": "mH",
-                    "type": "bool"
-                },
-                {
-                    "internalType": "bytes32",
-                    "name": "mOne",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "bytes",
-                    "name": "mTwo",
-                    "type": "bytes"
-                },
-                {
-                    "internalType": "bytes32",
-                    "name": "mThree",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "bytes32",
-                    "name": "mFour",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "bytes",
-                    "name": "mFive",
-                    "type": "bytes"
-                },
                 {
                     "internalType": "uint256",
                     "name": "a",
@@ -655,7 +638,7 @@ export default function ContractABI() {
             "inputs": [
                 {
                     "internalType": "uint256",
-                    "name": "newprivateBanquetLimit",
+                    "name": "newWhitelistMintLimit",
                     "type": "uint256"
                 }
             ],
